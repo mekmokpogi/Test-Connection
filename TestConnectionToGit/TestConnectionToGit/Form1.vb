@@ -10,8 +10,7 @@ Public Class Form1
             Catch ex As Exception
                 MessageBox.Show("Not Connected")
             End Try
-            'ssssssssssssssssssssssssssssssssssss
-            'sssssssssssssssssssssssssssssssssssssss
+
         End Using
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
