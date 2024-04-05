@@ -10,7 +10,6 @@ Public Class Form1
             Catch ex As Exception
                 MessageBox.Show("Not Connected")
             End Try
-
         End Using
     End Sub
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -19,6 +18,5 @@ Public Class Form1
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         ConnectToDatabase()
-
     End Sub
 End Class
